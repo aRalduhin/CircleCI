@@ -1,0 +1,7 @@
+version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
+options: "a750c328599ab4a781b5fbb6f333fa32"
+build_time: [1594211927, 414287000]
+inputs:
+  "/Users/aralduhin/Main/CircleCI/CircleCI/ViewController.swift": [1594211913, 861758963]
+  "/Users/aralduhin/Main/CircleCI/CircleCI/AppDelegate.swift": [1594211913, 843140610]
+  "/Users/aralduhin/Main/CircleCI/CircleCI/SceneDelegate.swift": [1594211913, 859430684]
