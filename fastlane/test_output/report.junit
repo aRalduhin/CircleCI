@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <testsuites name='CircleCITests.xctest' tests='4' failures='0'>
   <testsuite name='CircleCIUITests.CircleCIUITests' tests='2' failures='0'>
-    <testcase classname='CircleCIUITests.CircleCIUITests' name='testExample' time='3.246'/>
-    <testcase classname='CircleCIUITests.CircleCIUITests' name='testLaunchPerformance' time='18.473'/>
+    <testcase classname='CircleCIUITests.CircleCIUITests' name='testExample' time='2.938'/>
+    <testcase classname='CircleCIUITests.CircleCIUITests' name='testLaunchPerformance' time='19.797'/>
   </testsuite>
   <testsuite name='CircleCITests.CircleCITests' tests='2' failures='0'>
-    <testcase classname='CircleCITests.CircleCITests' name='testExample' time='0.006'/>
-    <testcase classname='CircleCITests.CircleCITests' name='testPerformanceExample' time='0.289'/>
+    <testcase classname='CircleCITests.CircleCITests' name='testExample' time='0.005'/>
+    <testcase classname='CircleCITests.CircleCITests' name='testPerformanceExample' time='0.296'/>
   </testsuite>
 </testsuites>
