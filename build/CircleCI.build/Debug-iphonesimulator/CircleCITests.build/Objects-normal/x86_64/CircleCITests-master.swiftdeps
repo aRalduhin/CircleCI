@@ -1,0 +1,5 @@
+version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
+options: "9167dcfff892485af99a1625bb995870"
+build_time: [1594215583, 507589000]
+inputs:
+  "/Users/aralduhin/Main/CircleCI/CircleCITests/CircleCITests.swift": [1594214923, 109070846]

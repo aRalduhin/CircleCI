@@ -17,8 +17,13 @@ default_platform(:ios)
 
 platform :ios do
   desc "Push a new beta build to TestFlight"
-  lane :beta do
-    build_app(scheme: "CircleCI")
-    upload_to_testflight
-  end
+  scan
+  cert
+  sigh
+  gym
+  #build_app
+  # Variant 2: Skip the "Waiting for processing" of the binary
+  #   While this will speed up your build, it will not distribute
+  #   the binary to your tests, nor set a changelog
+  upload_to_testflight(skip_waiting_for_build_processing: true)
 end
