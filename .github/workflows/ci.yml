@@ -27,6 +27,6 @@ jobs:
         run: sh ./bootstrap.sh
 
       - name: Run tests
-        run: bundle exec fastlane test
+        run: fastlane test
     env:
       MINT_PATH: ${{ github.workspace }}/mint
