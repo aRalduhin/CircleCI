@@ -16,15 +16,15 @@ jobs:
           key: ${{ runner.os }}-gem-${{ hashFiles('**/Gemfile.lock') }}
           restore-keys: ${{ runner.os }}-gem-
 
-      - name: Cache Mint packages
-        uses: actions/cache@v1
-        with:
-          path: ${{ env.MINT_PATH }}
-          key: ${{ runner.os }}-mint-${{ hashFiles('**/Mintfile') }}
-          restore-keys: ${{ runner.os }}-mint-
-
-      - name: Install dependencies
-        run: sh ./bootstrap.sh
+#      - name: Cache Mint packages
+#        uses: actions/cache@v1
+#        with:
+#          path: ${{ env.MINT_PATH }}
+#          key: ${{ runner.os }}-mint-${{ hashFiles('**/Mintfile') }}
+#          restore-keys: ${{ runner.os }}-mint-
+#
+#      - name: Install dependencies
+#        run: sh ./bootstrap.sh
 
       - name: Run tests
         run: fastlane test
