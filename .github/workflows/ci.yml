@@ -1,8 +1,6 @@
 name: CI
 on:
-  pull_request:
-    branches:
-      - master
+  push:
 jobs:
   validate-and-test:
     runs-on: macOS-latest
