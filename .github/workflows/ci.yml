@@ -26,14 +26,6 @@ jobs:
       - name: Install dependencies
         run: sh ./bootstrap.sh
 
-      - name: Run code validation
-        run: |
-          sh ./.github/scripts/validate-branch-name.sh
-          bundle exec danger
-        env:
-          BRANCH_NAME: ${{ github.head_ref }}
-          DANGER_GITHUB_API_TOKEN: ${{ secrets.DANGER_GITHUB_API_TOKEN }}
-
       - name: Run tests
         run: bundle exec fastlane test
     env:
